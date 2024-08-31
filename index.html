@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Лабіринт</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="timer">00:00</div>
+    <div id="instructions"></div>
+    <div id="intro-message">Find a way out of the maze</div>
+    <div id="overlay"></div>
+    <div id="modal">
+        <p id="modal-message"></p>
+        <p id="modal-best-time"></p>
+        <p id="modal-restart-message">Press <span>Enter</span> to restart the game.</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/PointerLockControls.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
